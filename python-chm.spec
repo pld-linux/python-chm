@@ -12,7 +12,6 @@ URL:		http://gnochm.sourceforge.net/pychm.html
 BuildRequires:	chmlib-devel
 BuildRequires:	python
 BuildRequires:	python-devel >= 2.2.1
-BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python
 Obsoletes:	pychm
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
