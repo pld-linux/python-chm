@@ -20,13 +20,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The chm package provides three modules, chm, chmlib and extra, which
 provide access to the API implemented by the C library chmlib and some
 additional classes and functions. They are used to access MS-ITSS
-encoded files - Compressed Html Help files (.chm).
+encoded files - Compressed HTML Help files (.chm).
 
 %description
 Pakiet chm udostêpnia trzy modu³y - chm, chmlib i extra, które
 udostêpniaj± dostêp do API biblioteki chmlib oraz kilka dodatkowych
 klas i funkcji. S± one wykorzystywane do dostêpu zakodowanych w
-MS-ITSS plików - skompresowanych plików pomocy html(.chm).
+MS-ITSS plików - skompresowanych plików pomocy HTML(.chm).
 
 %prep
 %setup -q -n %{modulename}-%{version}
