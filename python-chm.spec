@@ -2,16 +2,16 @@
 Summary:	Python package to handle CHM files
 Summary(pl):	Pakiet dla pythona do obs³ugi plików CHM
 Name:		python-chm
-Version:	0.8.3
-Release:	2
-Source0:	http://dl.sourceforge.net/gnochm/%{modulename}-%{version}.tar.gz
-# Source0-md5:	8fcc5eebed8a1991f1411abd99859e6d
-License:	GPL v2
+Version:	0.8.4
+Release:	1
+License:	GPL v2+
 Group:		Libraries/Python
+Source0:	http://dl.sourceforge.net/gnochm/%{modulename}-%{version}.tar.gz
+# Source0-md5:	ff7f0baf94290c44263a1618e7e6a116
 URL:		http://gnochm.sourceforge.net/pychm.html
 BuildRequires:	chmlib-devel
 BuildRequires:	python
-BuildRequires:	python-devel >= 2.5
+BuildRequires:	python-devel >= 1:2.5
 %pyrequires_eq	python
 Obsoletes:	pychm
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -40,12 +40,15 @@ python setup.py install \
 	--root=$RPM_BUILD_ROOT \
 	--optimize=2
 
+%py_postclean
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README NEWS COPYING ChangeLog
+%doc ChangeLog NEWS README
 %dir %{py_sitedir}/chm
 %attr(755,root,root) %{py_sitedir}/chm/*.so
 %{py_sitedir}/chm/*.py[oc]
+%{py_sitedir}/pychm-*.egg-info
