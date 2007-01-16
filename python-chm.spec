@@ -22,7 +22,7 @@ provide access to the API implemented by the C library chmlib and some
 additional classes and functions. They are used to access MS-ITSS
 encoded files - Compressed HTML Help files (.chm).
 
-%description
+%description -l pl
 Pakiet chm udostêpnia trzy modu³y - chm, chmlib i extra, które
 udostêpniaj± dostêp do API biblioteki chmlib oraz kilka dodatkowych
 klas i funkcji. S± one wykorzystywane do dostêpu zakodowanych w
