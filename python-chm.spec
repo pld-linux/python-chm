@@ -1,6 +1,6 @@
 %define		modulename	pychm
 Summary:	Python package to handle CHM files
-Summary(pl):	Pakiet dla pythona do obs³ugi plików CHM
+Summary(pl.UTF-8):   Pakiet dla pythona do obsÅ‚ugi plikÃ³w CHM
 Name:		python-chm
 Version:	0.8.4
 Release:	1
@@ -22,11 +22,11 @@ provide access to the API implemented by the C library chmlib and some
 additional classes and functions. They are used to access MS-ITSS
 encoded files - Compressed HTML Help files (.chm).
 
-%description -l pl
-Pakiet chm udostêpnia trzy modu³y - chm, chmlib i extra, które
-udostêpniaj± dostêp do API biblioteki chmlib oraz kilka dodatkowych
-klas i funkcji. S± one wykorzystywane do dostêpu zakodowanych w
-MS-ITSS plików - skompresowanych plików pomocy HTML(.chm).
+%description -l pl.UTF-8
+Pakiet chm udostÄ™pnia trzy moduÅ‚y - chm, chmlib i extra, ktÃ³re
+udostÄ™pniajÄ… dostÄ™p do API biblioteki chmlib oraz kilka dodatkowych
+klas i funkcji. SÄ… one wykorzystywane do dostÄ™pu zakodowanych w
+MS-ITSS plikÃ³w - skompresowanych plikÃ³w pomocy HTML(.chm).
 
 %prep
 %setup -q -n %{modulename}-%{version}
