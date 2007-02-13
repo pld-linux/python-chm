@@ -1,6 +1,6 @@
 %define		modulename	pychm
 Summary:	Python package to handle CHM files
-Summary(pl.UTF-8):   Pakiet dla pythona do obsługi plików CHM
+Summary(pl.UTF-8):	Pakiet dla pythona do obsługi plików CHM
 Name:		python-chm
 Version:	0.8.4
 Release:	1
