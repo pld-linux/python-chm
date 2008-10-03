@@ -3,7 +3,7 @@ Summary:	Python package to handle CHM files
 Summary(pl.UTF-8):	Pakiet dla pythona do obsługi plików CHM
 Name:		python-chm
 Version:	0.8.4
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/gnochm/%{modulename}-%{version}.tar.gz
