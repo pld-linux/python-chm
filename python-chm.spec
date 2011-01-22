@@ -6,12 +6,14 @@ Version:	0.8.4
 Release:	3
 License:	GPL v2+
 Group:		Libraries/Python
-Source0:	http://dl.sourceforge.net/gnochm/%{modulename}-%{version}.tar.gz
+Source0:	http://downloads.sourceforge.net/gnochm/%{modulename}-%{version}.tar.gz
 # Source0-md5:	ff7f0baf94290c44263a1618e7e6a116
 URL:		http://gnochm.sourceforge.net/pychm.html
 BuildRequires:	chmlib-devel
 BuildRequires:	python
 BuildRequires:	python-devel >= 1:2.5
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python
 Obsoletes:	pychm
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
