@@ -9,6 +9,7 @@ Group:		Libraries/Python
 Source0:	http://downloads.sourceforge.net/gnochm/%{modulename}-%{version}.tar.gz
 # Source0-md5:	ff7f0baf94290c44263a1618e7e6a116
 URL:		http://gnochm.sourceforge.net/pychm.html
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	chmlib-devel
 BuildRequires:	python
 BuildRequires:	python-devel >= 1:2.5
